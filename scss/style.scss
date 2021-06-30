@@ -1,0 +1,37 @@
+.simple__game{
+  border: 3px solid rgb(247, 23, 109);
+  background-color: aqua;
+  max-width: 550px;
+  margin: 100px auto 0px;
+  padding: 50px;
+  min-height: 200px;
+}
+
+.main{
+  max-width: 1110px;
+ 
+  margin: 125px auto 0px;
+}
+ul{
+  margin: 0 auto;
+  text-align: center;
+  
+}
+li{
+  color:chartreuse;
+  padding-top: 15px;
+  
+  list-style: none;
+}
+
+.main__container{
+  margin: 0 15px;
+  height: 500px;
+  border: 5px solid aqua;
+  background-color: #303641;
+  background-color: #6d6875;
+	background-image: 
+		linear-gradient(135deg, rgba(109,104,117, 0.2) 0%, rgba(255,180,162, 0.1) 25%, rgba(109,104,117, 0.2) 50%, rgba(255,180,162, 0.1) 75%, rgba(109,104,117, 0.2) 100%), 
+		linear-gradient(90deg, #6d6875, #b5838d, #e5989b, #ffb4a2, #ffcdb2);
+	background-size: 6px 6px, 100%;
+}
