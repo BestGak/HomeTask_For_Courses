@@ -109,3 +109,26 @@ margin: 5px;
 .bg_white{
   background-color: #fff;
 }
+
+.container{
+  & h1{
+    text-align: center;
+  }
+}
+
+.img__game{
+  display: flex;
+  margin: 25px auto;
+  max-width: 600px;
+  width: 100%;
+}
+hr{
+  border: 1px solid aqua;
+}
+
+.li__text{
+  list-style:inside;
+  color: #b5838d;
+  font-size: 1.4em;
+  text-align: left;
+}

@@ -62,7 +62,7 @@ function cellFinder() {
 cellFinder();
 
 function startGame(){
-btnGame.addEventListener('click', function(){
+btnGame.addEventListener('click', function(){ 
   cells.forEach(cell => {
     cell.style.background = 'transparent'
   });
