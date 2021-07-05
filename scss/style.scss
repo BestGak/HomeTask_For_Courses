@@ -35,3 +35,77 @@ li{
 		linear-gradient(90deg, #6d6875, #b5838d, #e5989b, #ffb4a2, #ffcdb2);
 	background-size: 6px 6px, 100%;
 }
+
+textarea {
+  width: 570px;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+  padding: 15px;
+  resize: none;   
+}
+
+.textarea__rus {
+  margin-bottom: 15px;
+}
+
+table.iksweb{
+width: 100%;
+border-collapse:collapse;
+border-spacing:0;
+height: auto;
+}
+table.iksweb,table.iksweb td, table.iksweb th {
+border: 1px solid #595959;
+}
+table.iksweb td,table.iksweb th {
+padding: 3px;
+width: 20px;
+height: 40px;
+cursor: pointer;
+}
+table.iksweb th {
+background: #347c99; 
+color: #fff; 
+font-weight: normal;
+}
+
+
+
+.table{
+border: 5px solid rgb(241, 120, 225);
+margin: 0 auto;
+margin-top: 25px;
+max-width: 560px;
+padding: 10px;
+}
+
+.iksweb.table__nc{
+  pointer-events: none;
+}
+
+.td__ivent{
+border: 1px solid #000;
+width: 45px;
+height: 45px;
+cursor: pointer;
+margin: 5px;
+}
+
+#btn_game{
+  margin: 0 auto;
+  width: 150px;
+  height: 50px;
+  display: flex;
+  margin-top: 25px;
+  text-align: center;
+  justify-content: center;
+  padding-top: 12.5px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.bg_white{
+  background-color: #fff;
+}

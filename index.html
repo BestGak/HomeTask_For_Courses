@@ -1,40 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/style.min.css">
-  <title>Document</title>
-</head>
-<body>
-  <div class="simple__game">
-  <h1>Бот загадал число, угадай какое от 0 до 100</h1>
-  <input id="input" type="number">
-  <button id="btn">Клик сюда</button>
-  <p id="paragraph"></p>
-  <p id="paragraph1"></p>
-</div>
-<main class="main">
-  <div class="main__container">
-<ul>
-<li>git config --global user.name blabla - команда при реєстрації в gid додає імя користувача</li>
-<li>  git config --global user.email blabal@bla команда при реєстрації в gid додає електронну пошту користувача</li>
-<li>git init- створює локальний репозиторій</li>
-<li>git status - просмотр текущих изменений </li>
-<li>git add - добавить файл в локальный репозиторий</li>
-<li>git commit - коммит в локальный репозиторий </li>
-<li>git log- показує образно історію репозиторія що з ним відбувалось</li>
-<li>git checkout- відміняє зміну файла</li>
-<li>git branch- команда дозволяє створювати, переглядати, перейменувати, удаляти гілки репозиторія</li>
-<li>git push - коммит в удаленный репозиторий</li>
-<li>git pull- команда зазвичай дістає дані з серверу, з якого ви зробили клон, та намагається злити її з кодом, над яким ви зараз працюєте</li>
-<li>git merge- используется для слияния одной или нескольких веток в текущую.</li>
-<li>git clone - скачивание репозитория </li>
-<li>.gitignore- Файл із розширенням файлу GITIGNORE - це файл Git Ignore, який використовується у системі управління версією / джерелом під назвою Git. Він визначає, git файли та папки не слід ігнорувати у заданому вихідному коді.</li>
-</ul>
-</div>
-</main>
-  <script src="./js/main.min.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.min.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="text_analyzer">
+      <div class="container">
+          <h1>Игра угадай ячейки</h1>                    
+  </div>
+
+  <div class="table">
+       <div class="container"> 
+          <h2>Угадайте 10 случайных ячеек</h2>
+          <table class="iksweb">
+              <tbody>
+                  <tr>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                  </tr>
+                  <tr>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                  </tr>
+                  <tr>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                  </tr>
+                  <tr>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                  </tr>
+                  <tr>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                  </tr>
+                  <tr>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                  </tr>
+                  <tr>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                  </tr>
+                  <tr>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                  </tr>
+                  <tr>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                  </tr>
+                  <tr>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                  </tr>
+              </tbody>               
+          </table> 
+          <p id="gameText"></p>
+      </div>          
+ </div>
+ <button id="btn_game">Resart Game</button>
+    <div class="simple__game">
+      <h1>Бот загадал число, угадай какое от 0 до 100</h1>
+      <input id="input" type="number" />
+      <button id="btn">Клик сюда</button>
+      <p id="paragraph"></p>
+      <p id="paragraph1"></p>
+    </div>
+    <main class="main">
+      <div class="main__container">
+        <ul>
+          <li>
+            git config --global user.name blabla - команда при реєстрації в gid
+            додає імя користувача
+          </li>
+          <li>
+            git config --global user.email blabal@bla команда при реєстрації в
+            gid додає електронну пошту користувача
+          </li>
+          <li>git init- створює локальний репозиторій</li>
+          <li>git status - просмотр текущих изменений</li>
+          <li>git add - добавить файл в локальный репозиторий</li>
+          <li>git commit - коммит в локальный репозиторий</li>
+          <li>
+            git log- показує образно історію репозиторія що з ним відбувалось
+          </li>
+          <li>git checkout- відміняє зміну файла</li>
+          <li>
+            git branch- команда дозволяє створювати, переглядати, перейменувати,
+            удаляти гілки репозиторія
+          </li>
+          <li>git push - коммит в удаленный репозиторий</li>
+          <li>
+            git pull- команда зазвичай дістає дані з серверу, з якого ви зробили
+            клон, та намагається злити її з кодом, над яким ви зараз працюєте
+          </li>
+          <li>
+            git merge- используется для слияния одной или нескольких веток в
+            текущую.
+          </li>
+          <li>git clone - скачивание репозитория</li>
+          <li>
+            .gitignore- Файл із розширенням файлу GITIGNORE - це файл Git
+            Ignore, який використовується у системі управління версією /
+            джерелом під назвою Git. Він визначає, git файли та папки не слід
+            ігнорувати у заданому вихідному коді.
+          </li>
+        </ul>
+      </div>
+    </main>
+    <script src="./js/main.min.js"></script>
+  </body>
 </html>
