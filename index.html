@@ -4,49 +4,134 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap" rel="stylesheet"> <title>Document</title>
   <link rel="stylesheet" href="./css/style.min.css">
-  <title>HomeTask</title>
 </head>
 <body>
-  <main class="main">
+  <header class="header">
     <div class="container">
-      <div class="main__container">
-      <div class="main__left-block">
-        <h2 class="main__left-block-title">Stay focused on saving money</h2>
-        <p class="main__left-block-suptitle">It is important to stay focused on saving money in any way you can. We help you monitor your spending habits so you can easily spot and cut any unnecessary expenses. Simply join today to get started!</p>
-        <div class="main__left-block-img">
-          <i class="fab fa-google-play"></i>
-          <i class="fab fa-app-store"></i>
-          <i class="fab fa-windows"></i>
+      <div class="header__container">
+        <div class="header__container-left">
+          <img src="./images/Logo.svg" alt="Logo" class="header__container-left-logo">
+          <ul class="header__container-left-ul">
+            <li class="header__container-left-li">About</li>
+            <li class="header__container-left-li">Help</li>
+            <li class="header__container-left-li">Features</li>
+            <li class="header__container-left-li">Signup</li>
+          </ul>
+        </div>
+        <div class="header__container-right">
+          <button class="header__container-right-btn">Request Demo <i class="fas fa-long-arrow-alt-right"></i></button>
         </div>
       </div>
-      <div class="main__right-block">
-        <img src="./images/Slider.png" alt="" class="main__right-block-img">
+    </div>
+  </header>
+
+    <section class="about">
+      <div class="container">
+        <div class="about__container">
+          <h1 class="about__container-title">Save your data storage here.</h1>
+          <p class="about__container-description">Data Warehouse is a data storage area that has been
+            tested for security, so you can store your data here
+            safely but not be afraid of being stolen by others.</p>
+          <button class="about__container-btn">Learn more</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="information">
+      <div class="container">
+        <div class="information__container">
+          <div class="information__container-left">
+            <img src="./images/image2.svg" alt="" class="information__container-left-img">
+          </div>
+          <div class="information__container-right">
+            <h2 class="information__container-right-title">We are a high-level data storage bank</h2>
+            <p class="information__container-right-description">The place to store various data that you can access at any time through the internet  and where you can carry it. 
+              This very flexible storage area has a high level of security. To enter into your own data you must enter the password that you created when you registered in this Data Warehouse. </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container">
+        <div class="features__container">
+          <h2 class="features__container-title">Features</h2>
+          <p class="features__container-suptitle">Some of the features and advantages that we provide for those of you who store data in this Data Warehouse.</p>
+            <div class="features__container-items">
+              <div class="features__container-item">
+                <h2 class="features__container-item-title">Search Data</h2>
+                <p class="features__container-item-description">Don’t worry if your data is very large, the Data Warehoue provides a search engine, which is useful for making it easier to find data effectively saving time.</p>
+                <a href="#" class="features__container-item-link">Learn more <i class="fas fa-long-arrow-alt-right"></i></a>
+              </div>
+              <div class="features__container-item">
+                <h2 class="features__container-item-title">24 Hours Access</h2>
+                <p class="features__container-item-description">Access is given 24 hours a full morning to night and
+                  meet again in the morning, giving you comfort when
+                  you need data when urgent.</p>
+                <a href="#" class="features__container-item-link">Learn more <i class="fas fa-long-arrow-alt-right"></i></a>
+              </div>
+              <div class="features__container-item">
+                <h2 class="features__container-item-title">Print Out</h2>
+                <p class="features__container-item-description">Print out service gives you convenience if someday
+                  you need print data, just edit it all and just print it.</p>
+                <a href="#" class="features__container-item-link">Learn more <i class="fas fa-long-arrow-alt-right"></i></a>
+              </div>
+              <div class="features__container-item">
+                <h2 class="features__container-item-title">Security Code</h2>
+                <p class="features__container-item-description">Data Security is one of our best facilities. Allows for your files
+                  to be safer. The file can be secured with a code or password that 
+                  you created, so only you can open the file.</p>
+                <a href="#" class="features__container-item-link">Learn more <i class="fas fa-long-arrow-alt-right"></i></a>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="testimonials">
+      <div class="container">      
+        <div class="testimonials__container">
+          <h2 class="testimonials__title">Testimonials</h2>
+          <div class="testimonials__container-wrapper">
+          <div class="testimonials__container-left">
+          <img src="./images/imgPhoto.png" alt="">
+        </div>
+          <div class="testimonials__container-right">
+            <p class="testimonials__container-right-name">John Fang</p>
+            <p class="testimonials__container-right-site">wordfaang.com</p>
+            <p class="testimonials__container-right-description">Suspendisse ultrices at diam lectus nullam. 
+              Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.</p>
+          </div>               
+        </div>
+        <div class="testimonials__container-footer">
+       <ul>
+         <li></li>
+         <li></li>
+         <li></li>
+         <li></li>
+       </ul>
+            <div class="arrows">
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-right"></i>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-  </main>
-    <section class="contact">
+    </section>
+    <section class="freeWeek">
       <div class="container">
-        <div class="contact__container">
-          <div class="contact__container-left">
-            <h2 class="contact__container-left-title">Contact</h2>
-            <p class="contact__container-left-paragraph">Questions or concerns? Just fill out the form below and our support team will get back to you within 24 hours</p>
+        <div class="freeWeek__container">
+          <div class="freeWeek__container-left">
+            <h2 class="freeWeek__container-left-title">Try for free!</h2>
+            <p class="freeWeek__container-left-description">Get limited 1 week free try our features!</p>
           </div>
-          <div class="contact__container-right">
-            <div>
-              <input class="contact__container-right-input" type="text" placeholder="First Name">
-              <input class="contact__container-right-input" type="text" placeholder="Last Name">
-            </div>
-              <input class="contact__container-right-input1" type="text" placeholder="Phone Number">
-              <select class="contact__container-right-input2" name="Select" id="">
-                <option value="value1">Select Service</option>
-                <option value="value2">2</option>
-                <option value="value3">3</option>
-              </select>
-              <button class="contact__container-right-btn">SUBMIT NOW</button>
+          <div class="freeWeek__container-right">
+            <button class="freeWeek__container-right-btn">Learn More</button>
+            <button class="freeWeek__container-right-btn">Request Demo <i class="fas fa-long-arrow-alt-right"></i></button>
           </div>
         </div>
       </div>
@@ -54,42 +139,50 @@
     <footer class="footer">
       <div class="container">
         <div class="footer__container">
-          <div class="footer__container-first">
-            <h2 class="footer__container-title">Address</h2>
-            <p class="footer__container-first-adress">Pipang Ltd, Griva Digeni,
-              81-83 Jacovides Tower, 1st Floor
-              1090 Picosia USA</p>
-              <p class="footer__container-first-copiright">Copyright 2018 CloudBudget</p>
+          <div class="footer__container-block">
+           <h1 class="footer__container-block-title"><img src="./images/Logo.svg" alt="" class="footer__container-block-logo">DataWarehouse</h1>
+            <address class="footer__container-block-adress">Warehouse Society, 234<br>Bahagia Ave Street PRBW 29281
+              </address>
+              <a href="" class="footer__container-block-link">info@warehouse.project</a>
+              <a href="" class="footer__container-block-link">1-232-3434 (Main)</a>
           </div>
-          <div class="footer__container-second">
-            <h2 class="footer__container-title">Services</h2>
+          <div class="footer__container-block">
+            <h1 class="footer__container-block-title">About</h1>
             <ul>
-              <li class="footer__container-second-li">Overview</li>
-              <li class="footer__container-second-li">Features</li>
-              <li class="footer__container-second-li">Technology</li>
-              <li class="footer__container-second-li">Terms & Conditions</li>
-              <li class="footer__container-second-li">Privecy</li>
+              <li>Profile</li>
+              <li>Features</li>
+              <li>Careers</li>
+              <li>DW News</li>
             </ul>
           </div>
-          <div class="footer__container-third">
-            <h2 class="footer__container-title">Get in Touch</h2>
-            <a href="info@cloudbudget.com">info@cloudbudget.com</a>
-            <a href="+1 844-721-7120">+1 844-721-7120</a>
+          <div class="footer__container-block">
+          <h1 class="footer__container-block-title">Help</h1>
+          <ul>
+            <li>Support</li>
+            <li>Sign up</li>
+            <li>Guide</li>
+            <li>Report</li>
+            <li>Q&A</li>
+          </ul>
+        </div>
+          <div class="footer__container-block">
+            <h1 class="footer__container-block-title">Social Media</h1>
             <div>
-              <i class="fab fa-facebook-f"></i>
-              <i class="fab fa-linkedin-in"></i>
-              <i class="fab fa-twitter"></i>
+              <i class="fab fa-facebook social__media"></i>
+              <i class="fab fa-twitter-square social__media"></i>
+              <i class="fab fa-instagram-square social__media"></i>
             </div>
-          </div>
-          <div class="footer__container-four">
-             <h2 class="footer__container-title">We Support</h2>
-             <img src="./images/paymant.jpg" alt="">
           </div>
         </div>
       </div>
     </footer>
+    <div class="container">
+    <div class="footer__end">
+      
+      <p class="footer__end-copyright">© Datawarehouse™, 2020. All rights reserved.
+        Company Registration Number: 21479524.</p>
+        <i class="fas fa-comment-dots"></i>
+      </div>
+    </div>
 </body>
 </html>
-</body>
-</html>
-
