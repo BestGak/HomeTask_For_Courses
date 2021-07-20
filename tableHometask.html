@@ -16,6 +16,7 @@
     <tr class="tableHometask__table-tr">
         <td class="tableHometask__table-tr-td">Name <i class="fas fa-caret-down"></i></td>
         <td class="tableHometask__table-tr-td">Date</td>
+        <td></td>
     </tr>
     <tr class="tableHometask__table-tr">
         <td class="tableHometask__table-tr-td-t">File.pdf</td>
@@ -42,8 +43,9 @@
 <!-- Second Table -->
 <table class="tableHometask__table">
   <tr class="tableHometask__table-tr">
-      <td class="tableHometask__table-tr-td">Name <i class="fas fa-caret-down"></i></td>
+      <td class="tableHometask__table-tr-td"><input type="checkbox">Name <i class="fas fa-caret-down"></i></td>
       <td class="tableHometask__table-tr-td">Date</td>
+      <td></td>
   </tr>
   <tr class="tableHometask__table-tr">
       <td class="tableHometask__table-tr-td-t"><input type="checkbox">File.pdf</td>
@@ -68,30 +70,35 @@
 </table>
 <!-- Third Table -->
 <table class="tableHometask__table">
-  <tr class="tableHometask__table-tr">
-    
+  <tr class="tableHometask__table-tr">  
       <td class="tableHometask__table-tr-td">Name <i class="fas fa-caret-down"></i></td>
-      <td class="tableHometask__table-tr-td">Date</td>
-      <td><input class="tableHometask__table-tr-td-i" type="text" placeholder="Search"></td>
-  </tr>
+      <td class="tableHometask__table-tr-td left">Date</td>
+      
+      <td><form action="">
+        <input class="tableHometask__table-tr-td-i" type="text" placeholder="Search"><button><i class="fas fa-search"></i></button></td>
+        
+        
+      </form>
+      </tr>
   <tr class="tableHometask__table-tr">
       <td class="tableHometask__table-tr-td-t"><i class="fas fa-folder-open"></i>File.pdf</td>
-      <td class="tableHometask__table-tr-td-s">3 mins ago</td>
-      <td class="tableHometask__table-tr-td">
+      <td class="tableHometask__table-tr-td-s left">3 mins ago</td>
+      <td class="tableHometask__table-tr-td right">
         <i class="fas fa-ellipsis-h"></i>
       </td>
   </tr>
   <tr class="tableHometask__table-tr">
     <td class="tableHometask__table-tr-td-t"><i class="fas fa-folder-open"></i>File.pdf</td>
-    <td class="tableHometask__table-tr-td-s">Yesterday</td>
-    <td class="tableHometask__table-tr-td">
+    <td class="tableHometask__table-tr-td-s left">Yesterday</td>
+    <td class="tableHometask__table-tr-td right">
      <i class="fas fa-ellipsis-h"></i>
     </td>
 </tr>
 <tr class="tableHometask__table-tr">
   <td class="tableHometask__table-tr-td-t border"><i class="fas fa-folder-open"></i>File.pdf</td>
-  <td class="tableHometask__table-tr-td-s border"><span>June 1st 2019</span><i class="fas fa-ellipsis-h"></i></td>
-
+  <td class="tableHometask__table-tr-td-s border left">June 1st 2019</td>
+  <td class="tableHometask__table-tr-td border right">
+    <i class="fas fa-ellipsis-h"></i>
   </td>
 </tr>
 </table>
