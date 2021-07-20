@@ -538,3 +538,76 @@ dd {
     color: red;
   }
 }
+
+.tableHometask{
+  padding: 100px 0px 250px;
+  background-color: #2C2C2C;
+  &__table{
+    border: 1px solid grey;
+    border-radius: 15px;
+    max-width: 1320px;
+    height: 300px;
+    width: 100%;
+    margin: 25px auto;
+    &-tr{
+      padding: 0 25px;
+      height: 25%;
+      border-bottom: 1px solid grey;
+      &:last-child{
+        border: none;
+      }
+      &-td{
+        color: #fff;
+        font-size: 1.5em;
+        font-weight: 600;
+        // border-bottom: 1px solid grey;
+        &-i{
+          width: 260px;
+          height: 60px;
+          border-radius: 30px;
+          background-color: grey;
+          padding-left: 40px;
+          outline: none;
+          color: #fff;
+          border: none;
+        }
+        &:nth-child(2){
+          margin: 0 auto;
+          padding-right: 45px;
+        }
+        &-t{
+          color: #fff;
+          font-size: 1.4em;
+        }
+        &-s{
+          color: grey;
+          font-size: 1.2em;
+          
+        }
+        & ul{
+          display: flex;
+          padding: 0;
+          & li{
+            color: grey;
+            margin-right:12px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.fa-folder-open{
+  margin-right: 10px;
+  color: #1898EF;
+}
+
+td{
+  border-bottom: 1px solid grey;
+  width: 50%;
+  border-left: none;
+  border-right: none;
+}
+.border{
+  border: none;
+}
