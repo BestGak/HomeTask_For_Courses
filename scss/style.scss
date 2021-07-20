@@ -542,7 +542,9 @@ dd {
 .tableHometask{
   padding: 100px 0px 250px;
   background-color: #2C2C2C;
+  
   &__table{
+    border-spacing: 0;
     border: 1px solid grey;
     border-radius: 15px;
     max-width: 1320px;
@@ -570,10 +572,6 @@ dd {
           outline: none;
           color: #fff;
           border: none;
-        }
-        &:nth-child(2){
-          margin: 0 auto;
-          padding-right: 45px;
         }
         &-t{
           color: #fff;
