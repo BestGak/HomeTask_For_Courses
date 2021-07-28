@@ -110,3 +110,24 @@
 
   }
 }
+
+.blocks{
+  max-width: 280px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px auto 0px;
+  background: rgb(4, 250, 45);
+&__block{
+  margin: 10px 10px;
+  width: 50px;
+  background: grey;
+  height: 50px;
+  &:nth-child(3) , &:nth-child(7) , &:nth-child(11) , &:nth-child(15) , &:nth-child(19), &:nth-child(23) {
+    background: red;
+  }
+  &:nth-child(21) , &:nth-child(22) , &:nth-child(24){
+    background: blue;
+  }
+}
+}
