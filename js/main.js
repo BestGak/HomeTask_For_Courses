@@ -79,3 +79,4 @@ let formText = document.querySelector('#name');
 btnForm.addEventListener('click' , function(){
 console.log(formText.value);
 })
+
