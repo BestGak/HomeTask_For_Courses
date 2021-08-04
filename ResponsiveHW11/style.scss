@@ -149,6 +149,7 @@ dd {
     max-width: 480px;
     width: 100%;
     padding-bottom: 170px;
+    margin-left: 163px;
   }
 
   &__container-left-text {
@@ -205,6 +206,7 @@ dd {
   &__container {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 163px;
   }
 
   &__container-item {
@@ -542,6 +544,9 @@ dd {
       align-items: center;
       text-align: center;
       padding-bottom: 500px;
+      &-left{
+        margin: 0px;
+      }
       &-right{
         position: relative;
     }
@@ -549,6 +554,7 @@ dd {
   }
   .features{
     &__container{
+      margin: 0px;
       &-item{
         width: 50%;
       }
