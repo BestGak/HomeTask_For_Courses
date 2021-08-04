@@ -43,6 +43,9 @@ dd {
 .start {
   background: url(../images/phone.png) right top  no-repeat;
   background-color: #f4f6f9;
+  &__container{
+    padding-left: 163px;
+  }
   &__container-logo {
     padding: 63px 0px 133px;
     transition: all .7s;
@@ -89,7 +92,6 @@ dd {
 
   &__container {
     display: flex;
-    justify-content: space-between;
     &-left{
       width: 55.5%;
       &-img{
@@ -98,6 +100,7 @@ dd {
     }
   }
   &__container-right {
+    margin-left: 30px;
     max-width: 425px;
     width: 100%;
   }
@@ -268,8 +271,9 @@ dd {
     border: 1px solid #828282;
     border-radius: 4px;
     padding: 15px 17px 0px;
-    height: 160px;
+    min-height: 160px;
     margin: 0 35px;
+   
   }
 
   &__item-block {
@@ -308,6 +312,7 @@ dd {
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25), 0px 5px 10px rgba(0, 0, 0, 0.1);
   left: 4%;
   top: 30%;
+  z-index: 10;
   padding: 15px;
   cursor: pointer;
 }
@@ -320,8 +325,9 @@ dd {
   box-sizing: border-box;
   border-radius: 50%;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25), 0px 5px 10px rgba(0, 0, 0, 0.1);
-  left: 93%;
+  left: 90%;
   top: 30%;
+  z-index: 10;
   padding: 15px;
   cursor: pointer;
 }
@@ -450,6 +456,38 @@ dd {
   }
 
 }
+
+.third__block{
+  position: relative;
+  &::after{
+    content: '';
+  position: absolute;
+  top: -2%;
+  bottom: 0;
+  left: 0;
+  right: -3%;
+  height: 105%;
+  background: linear-gradient(
+270deg
+, #FFFFFF 49.84%, rgba(255, 255, 255, 0.5) 126.7%);
+  }
+}
+.first__block{
+  position: relative;
+  &::after{
+    content: '';
+    position: absolute;
+    top: -2%;
+    bottom: 0;
+    left: -2%;
+    right: 0;
+    height: 105%;
+    width: 50%;
+    background: linear-gradient(
+270deg
+, rgba(255, 255, 255, 0.9) 20%, #FFFFFF);
+  }
+}
 @media screen and (max-width: 1260px) {
   .slider{
     &__item{
@@ -458,7 +496,7 @@ dd {
   }
 }
 @media screen and (max-width: 1150px) {
-.first__block{
+.second__block{
   display: none;
 }
 }
@@ -467,6 +505,7 @@ dd {
   .start{
     background-image: none;
     &__container{
+      padding: 0px;
       justify-content: center;
       align-items: center;
       flex-direction: column;
@@ -484,6 +523,7 @@ dd {
         width: 100%;
       }
       &-right{
+        margin: 0px;
         padding-bottom: 90px;
         &-text{
           padding-top: 50px;
@@ -547,13 +587,19 @@ dd {
 }
 
 @media screen and (max-width: 766px) {
-  .left__arrow , .right__arrow{
+  .left__arrow{
     display: none;
     font-size: 0px;
     box-shadow: none;
     border: none;
     padding: 0px;
     margin: 0px;
+  }
+  .right__arrow{
+    left: 85%;
+  }
+  .first__block, .third__block{
+    display: none;
   }
 }
 
