@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <title>BootStarp</title>
+</head>
+<body>
+ <header class="header">
+   <div class="container pt-3">
+     <div class="header__container">
+       <div class="header__container-logo">
+         <img src="../images/instagram.svg" alt="Instagram">
+       </div>
+       <div class="header__container-search">
+        <input type="text" class="form-control header__container-search-input" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1">
+       </div>
+       <div class="header__container-icons">
+          <img src="../images/instagram_home.svg" alt="home" class="header__container-icons-img">
+          <img src="../images/instagram__mesage.svg" alt="message" class="header__container-icons-img">
+          <img src="../images/instagram_compas.svg" alt="compas" class="header__container-icons-img">
+          <img src="../images/instagram_like.svg" alt="like" class="header__container-icons-img">
+          <img src="../images/instagram_crug.svg" alt="crug" class="header__container-icons-img"> 
+       </div>
+     </div>
+   </div>
+ </header>
+ <hr class="hr__line">
+  
+ <main class="main">
+   <section class="about">
+     
+   <div class="container">
+     <div class="about__container">
+       <div class="about__container-left pt-3">
+         <img src="../images/instagram_photo.svg" alt="about_photo" class="about__container-left-img">
+       </div>
+       <div class="about__container-right pt-5">
+         <div class="about__container-right-first">
+          <p class="about__container-right-first-name">name</p>
+          <div class="">
+          <button id="follow" type="button" class="btn btn-primary"><span id="follow_span">Follow</span><span id="subscribed__span">Subscribed</span></button>
+          <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="visually-hidden">Toggle Dropdown</span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+          <ul class="about__container-right-first-ul">
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+         </div>
+         <div class="about__container-right-second pt-4">
+           <p class="about__container-right-second-text"><b>79</b> posts</p>
+           <p class="about__container-right-second-text"><b>379</b> followers</p>
+           <p class="about__container-right-second-text"><b>179</b> following</p>
+         </div>
+         <div class="about__container-right-third pt-3">
+          <p class="about__container-right-third-name">Name</p>
+          <p class="about__container-right-third-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+          <a href="bit.ly/35Ce3mX">bit.ly/35Ce3mX</a>
+         </div>
+       </div>
+     </div>
+   </div>
+  </section>
+
+  <section class="actualy">
+    <div class="container">
+      <div class="actualy__container">
+        <div class="actualy__container-item">
+          <img src="../images/instagram_history.svg" alt="" class="actualy__container-item-img pb-3">
+          <p class="actualy__container-name">Name</p>
+        </div>
+        <div class="actualy__container-item">
+          <img src="../images/instagram_history.svg" alt="" class="actualy__container-item-img pb-3">
+          <p class="actualy__container-name">Name</p>
+        </div>
+        <div class="actualy__container-item">
+          <img src="../images/instagram_history.svg" alt="" class="actualy__container-item-img pb-3">
+          <p class="actualy__container-name">Name</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="content">
+    <div class="container">
+     
+      <div class="content__container">
+        <ul class="nav nav-pills mb-3 nav-pills-style" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active nav-link-style" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i class="fas fa-border-all icon"></i>POSTS</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link nav-link-style" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="fas fa-id-card-alt icon"></i>TAGGED</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="row">
+            <img class="col-xl-4 col-lg-4 col-md-4 col-sm-6 pb-4 img-fluid" src="../images/instagram__profilePhoto.svg" alt="...">
+            <img class="col-xl-4 col-lg-4 col-md-4 col-sm-6 pb-4 img-fluid" src="../images/instagram__profilePhoto.svg" alt="...">
+            <img class="col-xl-4 col-lg-4 col-md-4 col-sm-6 pb-4 img-fluid" src="../images/instagram__profilePhoto.svg" alt="...">
+            <img class="col-xl-4 col-lg-4 col-md-4 col-sm-6 pb-4 img-fluid img-fluid" src="../images/instagram__profilePhoto.svg" alt="">
+            <img class="col-xl-4 col-lg-4 col-md-4 col-sm-6 pb-4 img-fluid img-fluid" src="../images/instagram__profilePhoto.svg" alt="">
+            <img class="col-xl-4 col-lg-4 col-md-4 col-sm-6 pb-4 img-fluid img-fluid" src="../images/instagram__profilePhoto.svg" alt="">
+            <img class="col-xl-4 col-lg-4 col-md-4 col-sm-6 pb-4 img-fluid img-fluid" src="../images/instagram__profilePhoto.svg" alt="">
+            <img class="col-xl-4 col-lg-4 col-md-4 col-sm-6 pb-4 img-fluid img-fluid" src="../images/instagram__profilePhoto.svg" alt="">
+            <img class="col-xl-4 col-lg-4 col-md-4 col-sm-6 pb-4 img-fluid img-fluid" src="../images/instagram__profilePhoto.svg" alt="">
+            <img class="col-xl-4 col-lg-4 col-md-4 col-sm-6 pb-4 img-fluid img-fluid" src="../images/instagram__profilePhoto.svg" alt="">
+            <img class="col-xl-4 col-lg-4 col-md-4 col-sm-6 pb-4 img-fluid img-fluid" src="../images/instagram__profilePhoto.svg" alt="">
+            <img class="col-xl-4 col-lg-4 col-md-4 col-sm-6 pb-4 img-fluid img-fluid" src="../images/instagram__profilePhoto.svg" alt="">
+            <img class="col-xl-4 col-lg-4 col-md-4 col-sm-6 pb-4 img-fluid img-fluid" src="../images/instagram__profilePhoto.svg" alt="">
+            <img class="col-xl-4 col-lg-4 col-md-4 col-sm-6 pb-4 img-fluid img-fluid" src="../images/instagram__profilePhoto.svg" alt="">
+            <img class="col-xl-4 col-lg-4 col-md-4 col-sm-6 pb-4 img-fluid img-fluid" src="../images/instagram__profilePhoto.svg" alt="">
+          </div>
+        </div>
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <div class="row">
+            <svg class="col-xl-4 col-lg-4 col-md-4 col-sm-6 pb-4 img-fluid" viewBox="0 0 297 297" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <rect width="297" height="297" fill="url(#pattern0)"/>
+              <rect width="297" height="297" fill="white" fill-opacity="0.8"/>
+              <defs>
+              <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="0.107744" height="0.107744">
+              <use xlink:href="#image0" transform="scale(0.0016835)"/>
+              </pattern>
+              <image id="image0" width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAA40lEQVR4Xu3bQQ6EQAhEUbj/oXsO8Sdh4XOvJAi/qkF3Zt6E6710++xuiD6T40uACtACqYlzD2IACFKBkoHcgmSQDJJBMngKIT6ADygF6DSYfcCLTzg/z0eGrASogDbT0gKxB2MB5pkiBoBgrEEMwIBjLx9fAAiCIAhygmkkRgYjhWMHditsL2AvYC+QIHjdwzk+BmAABmBAWc1kCF0bKRAEQRAEQRAMGaACbaCUz/P5BRiKxhQaiV07uRjfYgQDMKDpGAhGCMUCzD4CBEEw1iAGYIBPZMJh+g8/P8cKpAJfV4EfMee/sLtaEFIAAAAASUVORK5CYII="/>
+              </defs>
+              </svg>
+
+              <svg class="col-xl-4 col-lg-4 col-md-4 col-sm-6 pb-4 img-fluid" viewBox="0 0 297 297" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <rect width="297" height="297" fill="url(#pattern0)"/>
+                <rect width="297" height="297" fill="white" fill-opacity="0.8"/>
+                <defs>
+                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="0.107744" height="0.107744">
+                <use xlink:href="#image0" transform="scale(0.0016835)"/>
+                </pattern>
+                <image id="image0" width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAA40lEQVR4Xu3bQQ6EQAhEUbj/oXsO8Sdh4XOvJAi/qkF3Zt6E6710++xuiD6T40uACtACqYlzD2IACFKBkoHcgmSQDJJBMngKIT6ADygF6DSYfcCLTzg/z0eGrASogDbT0gKxB2MB5pkiBoBgrEEMwIBjLx9fAAiCIAhygmkkRgYjhWMHditsL2AvYC+QIHjdwzk+BmAABmBAWc1kCF0bKRAEQRAEQRAMGaACbaCUz/P5BRiKxhQaiV07uRjfYgQDMKDpGAhGCMUCzD4CBEEw1iAGYIBPZMJh+g8/P8cKpAJfV4EfMee/sLtaEFIAAAAASUVORK5CYII="/>
+                </defs>
+                </svg>
+
+                <svg class="col-xl-4 col-lg-4 col-md-4 col-sm-6 pb-4 img-fluid" viewBox="0 0 297 297" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <rect width="297" height="297" fill="url(#pattern0)"/>
+                  <rect width="297" height="297" fill="white" fill-opacity="0.8"/>
+                  <defs>
+                  <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="0.107744" height="0.107744">
+                  <use xlink:href="#image0" transform="scale(0.0016835)"/>
+                  </pattern>
+                  <image id="image0" width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAA40lEQVR4Xu3bQQ6EQAhEUbj/oXsO8Sdh4XOvJAi/qkF3Zt6E6710++xuiD6T40uACtACqYlzD2IACFKBkoHcgmSQDJJBMngKIT6ADygF6DSYfcCLTzg/z0eGrASogDbT0gKxB2MB5pkiBoBgrEEMwIBjLx9fAAiCIAhygmkkRgYjhWMHditsL2AvYC+QIHjdwzk+BmAABmBAWc1kCF0bKRAEQRAEQRAMGaACbaCUz/P5BRiKxhQaiV07uRjfYgQDMKDpGAhGCMUCzD4CBEEw1iAGYIBPZMJh+g8/P8cKpAJfV4EfMee/sLtaEFIAAAAASUVORK5CYII="/>
+                  </defs>
+                  </svg>
+
+                  <svg class="col-xl-4 col-lg-4 col-md-4 col-sm-6 pb-4 img-fluid" viewBox="0 0 297 297" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect width="297" height="297" fill="url(#pattern0)"/>
+                    <rect width="297" height="297" fill="white" fill-opacity="0.8"/>
+                    <defs>
+                    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="0.107744" height="0.107744">
+                    <use xlink:href="#image0" transform="scale(0.0016835)"/>
+                    </pattern>
+                    <image id="image0" width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAA40lEQVR4Xu3bQQ6EQAhEUbj/oXsO8Sdh4XOvJAi/qkF3Zt6E6710++xuiD6T40uACtACqYlzD2IACFKBkoHcgmSQDJJBMngKIT6ADygF6DSYfcCLTzg/z0eGrASogDbT0gKxB2MB5pkiBoBgrEEMwIBjLx9fAAiCIAhygmkkRgYjhWMHditsL2AvYC+QIHjdwzk+BmAABmBAWc1kCF0bKRAEQRAEQRAMGaACbaCUz/P5BRiKxhQaiV07uRjfYgQDMKDpGAhGCMUCzD4CBEEw1iAGYIBPZMJh+g8/P8cKpAJfV4EfMee/sLtaEFIAAAAASUVORK5CYII="/>
+                    </defs>
+                    </svg>
+
+                    <svg class="col-xl-4 col-lg-4 col-md-4 col-sm-6 pb-4 img-fluid" viewBox="0 0 297 297" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <rect width="297" height="297" fill="url(#pattern0)"/>
+                      <rect width="297" height="297" fill="white" fill-opacity="0.8"/>
+                      <defs>
+                      <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="0.107744" height="0.107744">
+                      <use xlink:href="#image0" transform="scale(0.0016835)"/>
+                      </pattern>
+                      <image id="image0" width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAA40lEQVR4Xu3bQQ6EQAhEUbj/oXsO8Sdh4XOvJAi/qkF3Zt6E6710++xuiD6T40uACtACqYlzD2IACFKBkoHcgmSQDJJBMngKIT6ADygF6DSYfcCLTzg/z0eGrASogDbT0gKxB2MB5pkiBoBgrEEMwIBjLx9fAAiCIAhygmkkRgYjhWMHditsL2AvYC+QIHjdwzk+BmAABmBAWc1kCF0bKRAEQRAEQRAMGaACbaCUz/P5BRiKxhQaiV07uRjfYgQDMKDpGAhGCMUCzD4CBEEw1iAGYIBPZMJh+g8/P8cKpAJfV4EfMee/sLtaEFIAAAAASUVORK5CYII="/>
+                      </defs>
+                      </svg>
+
+                      <svg class="col-xl-4 col-lg-4 col-md-4 col-sm-6 pb-4 img-fluid" viewBox="0 0 297 297" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect width="297" height="297" fill="url(#pattern0)"/>
+                        <rect width="297" height="297" fill="white" fill-opacity="0.8"/>
+                        <defs>
+                        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="0.107744" height="0.107744">
+                        <use xlink:href="#image0" transform="scale(0.0016835)"/>
+                        </pattern>
+                        <image id="image0" width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAA40lEQVR4Xu3bQQ6EQAhEUbj/oXsO8Sdh4XOvJAi/qkF3Zt6E6710++xuiD6T40uACtACqYlzD2IACFKBkoHcgmSQDJJBMngKIT6ADygF6DSYfcCLTzg/z0eGrASogDbT0gKxB2MB5pkiBoBgrEEMwIBjLx9fAAiCIAhygmkkRgYjhWMHditsL2AvYC+QIHjdwzk+BmAABmBAWc1kCF0bKRAEQRAEQRAMGaACbaCUz/P5BRiKxhQaiV07uRjfYgQDMKDpGAhGCMUCzD4CBEEw1iAGYIBPZMJh+g8/P8cKpAJfV4EfMee/sLtaEFIAAAAASUVORK5CYII="/>
+                        </defs>
+                        </svg>
+
+                        <svg class="col-xl-4 col-lg-4 col-md-4 col-sm-6 pb-4 img-fluid" viewBox="0 0 297 297" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                          <rect width="297" height="297" fill="url(#pattern0)"/>
+                          <rect width="297" height="297" fill="white" fill-opacity="0.8"/>
+                          <defs>
+                          <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="0.107744" height="0.107744">
+                          <use xlink:href="#image0" transform="scale(0.0016835)"/>
+                          </pattern>
+                          <image id="image0" width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAA40lEQVR4Xu3bQQ6EQAhEUbj/oXsO8Sdh4XOvJAi/qkF3Zt6E6710++xuiD6T40uACtACqYlzD2IACFKBkoHcgmSQDJJBMngKIT6ADygF6DSYfcCLTzg/z0eGrASogDbT0gKxB2MB5pkiBoBgrEEMwIBjLx9fAAiCIAhygmkkRgYjhWMHditsL2AvYC+QIHjdwzk+BmAABmBAWc1kCF0bKRAEQRAEQRAMGaACbaCUz/P5BRiKxhQaiV07uRjfYgQDMKDpGAhGCMUCzD4CBEEw1iAGYIBPZMJh+g8/P8cKpAJfV4EfMee/sLtaEFIAAAAASUVORK5CYII="/>
+                          </defs>
+                          </svg>
+
+                          <svg class="col-xl-4 col-lg-4 col-md-4 col-sm-6 pb-4 img-fluid" viewBox="0 0 297 297" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <rect width="297" height="297" fill="url(#pattern0)"/>
+                            <rect width="297" height="297" fill="white" fill-opacity="0.8"/>
+                            <defs>
+                            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="0.107744" height="0.107744">
+                            <use xlink:href="#image0" transform="scale(0.0016835)"/>
+                            </pattern>
+                            <image id="image0" width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAA40lEQVR4Xu3bQQ6EQAhEUbj/oXsO8Sdh4XOvJAi/qkF3Zt6E6710++xuiD6T40uACtACqYlzD2IACFKBkoHcgmSQDJJBMngKIT6ADygF6DSYfcCLTzg/z0eGrASogDbT0gKxB2MB5pkiBoBgrEEMwIBjLx9fAAiCIAhygmkkRgYjhWMHditsL2AvYC+QIHjdwzk+BmAABmBAWc1kCF0bKRAEQRAEQRAMGaACbaCUz/P5BRiKxhQaiV07uRjfYgQDMKDpGAhGCMUCzD4CBEEw1iAGYIBPZMJh+g8/P8cKpAJfV4EfMee/sLtaEFIAAAAASUVORK5CYII="/>
+                            </defs>
+                            </svg>
+
+                            <svg class="col-xl-4 col-lg-4 col-md-4 col-sm-6 pb-4 img-fluid" viewBox="0 0 297 297" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                              <rect width="297" height="297" fill="url(#pattern0)"/>
+                              <rect width="297" height="297" fill="white" fill-opacity="0.8"/>
+                              <defs>
+                              <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="0.107744" height="0.107744">
+                              <use xlink:href="#image0" transform="scale(0.0016835)"/>
+                              </pattern>
+                              <image id="image0" width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAA40lEQVR4Xu3bQQ6EQAhEUbj/oXsO8Sdh4XOvJAi/qkF3Zt6E6710++xuiD6T40uACtACqYlzD2IACFKBkoHcgmSQDJJBMngKIT6ADygF6DSYfcCLTzg/z0eGrASogDbT0gKxB2MB5pkiBoBgrEEMwIBjLx9fAAiCIAhygmkkRgYjhWMHditsL2AvYC+QIHjdwzk+BmAABmBAWc1kCF0bKRAEQRAEQRAMGaACbaCUz/P5BRiKxhQaiV07uRjfYgQDMKDpGAhGCMUCzD4CBEEw1iAGYIBPZMJh+g8/P8cKpAJfV4EfMee/sLtaEFIAAAAASUVORK5CYII="/>
+                              </defs>
+                              </svg>
+
+                              <svg class="col-xl-4 col-lg-4 col-md-4 col-sm-6 pb-4 img-fluid" viewBox="0 0 297 297" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <rect width="297" height="297" fill="url(#pattern0)"/>
+                                <rect width="297" height="297" fill="white" fill-opacity="0.8"/>
+                                <defs>
+                                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="0.107744" height="0.107744">
+                                <use xlink:href="#image0" transform="scale(0.0016835)"/>
+                                </pattern>
+                                <image id="image0" width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAA40lEQVR4Xu3bQQ6EQAhEUbj/oXsO8Sdh4XOvJAi/qkF3Zt6E6710++xuiD6T40uACtACqYlzD2IACFKBkoHcgmSQDJJBMngKIT6ADygF6DSYfcCLTzg/z0eGrASogDbT0gKxB2MB5pkiBoBgrEEMwIBjLx9fAAiCIAhygmkkRgYjhWMHditsL2AvYC+QIHjdwzk+BmAABmBAWc1kCF0bKRAEQRAEQRAMGaACbaCUz/P5BRiKxhQaiV07uRjfYgQDMKDpGAhGCMUCzD4CBEEw1iAGYIBPZMJh+g8/P8cKpAJfV4EfMee/sLtaEFIAAAAASUVORK5CYII="/>
+                                </defs>
+                                </svg>
+
+                                <svg class="col-xl-4 col-lg-4 col-md-4 col-sm-6 pb-4 img-fluid" viewBox="0 0 297 297" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                  <rect width="297" height="297" fill="url(#pattern0)"/>
+                                  <rect width="297" height="297" fill="white" fill-opacity="0.8"/>
+                                  <defs>
+                                  <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="0.107744" height="0.107744">
+                                  <use xlink:href="#image0" transform="scale(0.0016835)"/>
+                                  </pattern>
+                                  <image id="image0" width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAA40lEQVR4Xu3bQQ6EQAhEUbj/oXsO8Sdh4XOvJAi/qkF3Zt6E6710++xuiD6T40uACtACqYlzD2IACFKBkoHcgmSQDJJBMngKIT6ADygF6DSYfcCLTzg/z0eGrASogDbT0gKxB2MB5pkiBoBgrEEMwIBjLx9fAAiCIAhygmkkRgYjhWMHditsL2AvYC+QIHjdwzk+BmAABmBAWc1kCF0bKRAEQRAEQRAMGaACbaCUz/P5BRiKxhQaiV07uRjfYgQDMKDpGAhGCMUCzD4CBEEw1iAGYIBPZMJh+g8/P8cKpAJfV4EfMee/sLtaEFIAAAAASUVORK5CYII="/>
+                                  </defs>
+                                  </svg>
+
+                                  <svg class="col-xl-4 col-lg-4 col-md-4 col-sm-6 pb-4 img-fluid" viewBox="0 0 297 297" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <rect width="297" height="297" fill="url(#pattern0)"/>
+                                    <rect width="297" height="297" fill="white" fill-opacity="0.8"/>
+                                    <defs>
+                                    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="0.107744" height="0.107744">
+                                    <use xlink:href="#image0" transform="scale(0.0016835)"/>
+                                    </pattern>
+                                    <image id="image0" width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAA40lEQVR4Xu3bQQ6EQAhEUbj/oXsO8Sdh4XOvJAi/qkF3Zt6E6710++xuiD6T40uACtACqYlzD2IACFKBkoHcgmSQDJJBMngKIT6ADygF6DSYfcCLTzg/z0eGrASogDbT0gKxB2MB5pkiBoBgrEEMwIBjLx9fAAiCIAhygmkkRgYjhWMHditsL2AvYC+QIHjdwzk+BmAABmBAWc1kCF0bKRAEQRAEQRAMGaACbaCUz/P5BRiKxhQaiV07uRjfYgQDMKDpGAhGCMUCzD4CBEEw1iAGYIBPZMJh+g8/P8cKpAJfV4EfMee/sLtaEFIAAAAASUVORK5CYII="/>
+                                    </defs>
+                                    </svg>
+
+                                    <svg class="col-xl-4 col-lg-4 col-md-4 col-sm-6 pb-4 img-fluid" viewBox="0 0 297 297" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                      <rect width="297" height="297" fill="url(#pattern0)"/>
+                                      <rect width="297" height="297" fill="white" fill-opacity="0.8"/>
+                                      <defs>
+                                      <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="0.107744" height="0.107744">
+                                      <use xlink:href="#image0" transform="scale(0.0016835)"/>
+                                      </pattern>
+                                      <image id="image0" width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAA40lEQVR4Xu3bQQ6EQAhEUbj/oXsO8Sdh4XOvJAi/qkF3Zt6E6710++xuiD6T40uACtACqYlzD2IACFKBkoHcgmSQDJJBMngKIT6ADygF6DSYfcCLTzg/z0eGrASogDbT0gKxB2MB5pkiBoBgrEEMwIBjLx9fAAiCIAhygmkkRgYjhWMHditsL2AvYC+QIHjdwzk+BmAABmBAWc1kCF0bKRAEQRAEQRAMGaACbaCUz/P5BRiKxhQaiV07uRjfYgQDMKDpGAhGCMUCzD4CBEEw1iAGYIBPZMJh+g8/P8cKpAJfV4EfMee/sLtaEFIAAAAASUVORK5CYII="/>
+                                      </defs>
+                                      </svg>
+
+                                      <svg class="col-xl-4 col-lg-4 col-md-4 col-sm-6 pb-4 img-fluid" viewBox="0 0 297 297" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <rect width="297" height="297" fill="url(#pattern0)"/>
+                                        <rect width="297" height="297" fill="white" fill-opacity="0.8"/>
+                                        <defs>
+                                        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="0.107744" height="0.107744">
+                                        <use xlink:href="#image0" transform="scale(0.0016835)"/>
+                                        </pattern>
+                                        <image id="image0" width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAA40lEQVR4Xu3bQQ6EQAhEUbj/oXsO8Sdh4XOvJAi/qkF3Zt6E6710++xuiD6T40uACtACqYlzD2IACFKBkoHcgmSQDJJBMngKIT6ADygF6DSYfcCLTzg/z0eGrASogDbT0gKxB2MB5pkiBoBgrEEMwIBjLx9fAAiCIAhygmkkRgYjhWMHditsL2AvYC+QIHjdwzk+BmAABmBAWc1kCF0bKRAEQRAEQRAMGaACbaCUz/P5BRiKxhQaiV07uRjfYgQDMKDpGAhGCMUCzD4CBEEw1iAGYIBPZMJh+g8/P8cKpAJfV4EfMee/sLtaEFIAAAAASUVORK5CYII="/>
+                                        </defs>
+                                        </svg>
+
+                                        <svg class="col-xl-4 col-lg-4 col-md-4 col-sm-6 pb-4 img-fluid" viewBox="0 0 297 297" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                          <rect width="297" height="297" fill="url(#pattern0)"/>
+                                          <rect width="297" height="297" fill="white" fill-opacity="0.8"/>
+                                          <defs>
+                                          <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="0.107744" height="0.107744">
+                                          <use xlink:href="#image0" transform="scale(0.0016835)"/>
+                                          </pattern>
+                                          <image id="image0" width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAA40lEQVR4Xu3bQQ6EQAhEUbj/oXsO8Sdh4XOvJAi/qkF3Zt6E6710++xuiD6T40uACtACqYlzD2IACFKBkoHcgmSQDJJBMngKIT6ADygF6DSYfcCLTzg/z0eGrASogDbT0gKxB2MB5pkiBoBgrEEMwIBjLx9fAAiCIAhygmkkRgYjhWMHditsL2AvYC+QIHjdwzk+BmAABmBAWc1kCF0bKRAEQRAEQRAMGaACbaCUz/P5BRiKxhQaiV07uRjfYgQDMKDpGAhGCMUCzD4CBEEw1iAGYIBPZMJh+g8/P8cKpAJfV4EfMee/sLtaEFIAAAAASUVORK5CYII="/>
+                                          </defs>
+                                          </svg>
+          </div>
+        </div>
+        </div>
+      
+      </div>
+    </div>
+  </section>
+
+ </main>
+ <script src="../js/jsHW13.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script> 
+</body>
+</html>
